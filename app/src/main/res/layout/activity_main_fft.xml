@@ -14,17 +14,27 @@
         android:orientation="vertical"
         android:weightSum="10">
 
+
         <com.jjoe64.graphview.GraphView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="230dp"
             android:id="@+id/graphChart"
-            android:layout_weight="8"/>
+            />
 
         <SeekBar
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/seekBar"
-            android:layout_weight="2"/>
+            android:layout_weight="2"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Identify new Activity"
+            android:id="@+id/identifyButton"
+            android:layout_weight="2"
+            android:paddingBottom="0dp"/>
 
     </LinearLayout>
 
