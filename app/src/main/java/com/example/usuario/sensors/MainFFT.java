@@ -256,8 +256,6 @@ public class MainFFT extends ActionBarActivity implements SensorEventListener {
         mIdentifyButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                mInput = new double[1024];
                 cicles = 0;
                 mGraphChart.removeAllSeries();
             }
